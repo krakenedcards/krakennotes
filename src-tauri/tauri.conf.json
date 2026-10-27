@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "KrakenNotes",
+  "version": "0.1.0",
+  "identifier": "com.krakenedcards.krakennotes",
+  "build": { "beforeDevCommand": "npm run dev", "devUrl": "http://localhost:1420", "beforeBuildCommand": "npm run build", "frontendDist": "../dist" },
+  "app": { "windows": [{ "title": "KrakenNotes", "width": 900, "height": 680, "minWidth": 320, "minHeight": 480 }], "security": { "csp": null } },
+  "bundle": { "active": true }
+}
